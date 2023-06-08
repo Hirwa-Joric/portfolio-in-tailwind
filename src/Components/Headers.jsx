@@ -14,11 +14,14 @@ function Headers() {
                     Small is a dedicated performance  management platform that helps you execute nonstrategic goals and  retail  key talent.</p>
                 
             </div>
-            <div className="absolute w-[616px] h-[612px]">
-                <img src={person} alt="person" />
+            <div className="relative w-[616px] h-[612px]">
+                <img src={person} alt="person"  className="absolute w-[418px] h-[547px] left-[200px] top-0"/>
                 <img src={cross} alt="cross" />
-                <div className="flex-col items-center py-[17px] px-[23px] absolute w-[187px] h-[138px] top-[460px] left-0">
+                <div className="flex-col items-center py-[17px] px-[23px] absolute w-[187px] h-[138px] top-[460px] left-0 bg-white">
+                    <div>
+                    <div className="absolute w-[102px] h-[13px] "></div>
                     <p>+10k</p>
+                    </div>
                     <p>Create conversation per moth</p>
                 </div>
                 <div className="absolute w-[336px] h-[120px] left-[280px] top-[24px]">
