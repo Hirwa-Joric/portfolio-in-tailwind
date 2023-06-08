@@ -4,20 +4,20 @@ import cross from "../assets/cross.png"
 import bell from "../assets/bell.svg"
 function Headers() {
     return (
-        <div className="w-[1440px] h-[830px] m-auto bg-slate-400">
+        <div className="m-auto ">
             <Navbar />
-            <div>
-            <div className="w-[680px] h-[327px]">
-                <p className="font-srif font-normal font-semibold text-6xl leading-[136.7%] text-[#284D57]">
+            <div className="w-auto flex items-center justify-center mt-10">
+            <div className="w-[980px]  flex-col  ">
+                <p className="font-srif font-semibold text-9xl  text-[#284D57] md-10">
                     Performance- <br></br>based <span className="text-[#E64B2F]">businesses</span> succeed.
                 </p>
-                <p className="font-Montserrat font-normal text-base leading-[136.7%] w-[567px] h-[50px] text-[#5B5653] ">
+                <p className="font-Montserrat font-normal text-base text-3xl leading-[136.7%] w-[667px] h-[50px] text-[#5B5653] mt-10">
                     Small is a dedicated performance  management platform that helps you execute nonstrategic goals and  retail  key talent.</p>
                 
             </div>
-            <div className="relative w-[616px] h-[612px] bg-red-800">
-                <img src={person} alt="person"  className="absolute w-[418px] z-[1] left-[50px] top-0"/>
-                <img src={cross} alt="cross" className="relative left-[175px] top-[120px]"/>
+            <div className="relative w-[616px] h-[612px]">
+                <img src={person} alt="person"  className="absolute w-[618px] z-[1] left-[50px] top-0"/>
+                <img src={cross} alt="cross" className="relative left-[175px] top-[100px] w-[618px]"/>
                 <div className="flex flex-col items-center p-4 absolute w-48 h-36 z-10 bg-white">
                     <div className="relative">
                     <div className="absolute w-[102px] h-[13px] bg-rgba-red top-6"></div>
@@ -32,7 +32,7 @@ function Headers() {
                         <p>eNPS improved by 22% since last quarter</p>
                     </div>
                 </div>
-                </div>
+                </div >
                 </div>
         </div>
 

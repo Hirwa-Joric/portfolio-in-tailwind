@@ -4,7 +4,7 @@ import {Features,Features2,Footer,Headers,Solutions,Terminals,} from "./Componen
 function App() {
 
   return (
-    <div className="">
+    <div className="pt-14">
       <Headers />
       <Features />
       <Features2 />
