@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import person from "../assets/person.png"
 function Headers() {
     return (
         <div className="w-[1440px] h-[830px] m-auto bg-slate-400">
@@ -12,7 +13,7 @@ function Headers() {
                 
             </div>
             <div>
-                
+                img
             </div>
         </div>
 
