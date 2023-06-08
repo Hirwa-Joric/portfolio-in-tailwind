@@ -18,13 +18,13 @@ function Headers() {
                 <img src={person} alt="person"  className="absolute w-[418px] h-[547px] left-[200px] top-0"/>
                 <img src={cross} alt="cross" />
                 <div className="flex-col items-center py-[17px] px-[23px] absolute w-[187px] h-[138px] top-[460px] left-0 bg-white">
-                    <div>
-                    <div className="absolute w-[102px] h-[13px] "></div>
-                    <p>+10k</p>
+                    <div className="relative">
+                    <div className="absolute w-[102px] h-[13px] bg-rgba-red top-6"></div>
+                    <p className="font-sans font-semibold text-4xl ">+10k</p>
                     </div>
                     <p>Create conversation per moth</p>
                 </div>
-                <div className="absolute w-[336px] h-[120px] left-[280px] top-[24px]">
+                <div className="absolute w-[336px] h-[120px] left-[280px] top-[24px] ">
                     <img src={bell} alt="bell" />
                     <p>Q3 Engament Survey Results</p>
                     <p>eNPS improved by 22% since last quarter</p>
