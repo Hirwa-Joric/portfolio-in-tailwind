@@ -1,6 +1,7 @@
 import Navbar from "./Navbar"
 import person from "../assets/person.png"
 import cross from "../assets/cross.png"
+import bell from "../assets/bell.svg"
 function Headers() {
     return (
         <div className="w-[1440px] h-[830px] m-auto bg-slate-400">
@@ -13,14 +14,18 @@ function Headers() {
                     Small is a dedicated performance  management platform that helps you execute nonstrategic goals and  retail  key talent.</p>
                 
             </div>
-            <div>
+            <div className="absolute w-[616px] h-[612px]">
                 <img src={person} alt="person" />
                 <img src={cross} alt="cross" />
-                <div>
+                <div className="flex-col items-center py-[17px] px-[23px] absolute w-[187px] h-[138px] top-[460px] left-0">
                     <p>+10k</p>
                     <p>Create conversation per moth</p>
                 </div>
-                <div></div>
+                <div className="absolute w-[336px] h-[120px] left-[280px] top-[24px]">
+                    <img src={bell} alt="bell" />
+                    <p>Q3 Engament Survey Results</p>
+                    <p>eNPS improved by 22% since last quarter</p>
+                </div>
             </div>
         </div>
 
