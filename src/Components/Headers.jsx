@@ -6,6 +6,7 @@ function Headers() {
     return (
         <div className="w-[1440px] h-[830px] m-auto bg-slate-400">
             <Navbar />
+            <div>
             <div className="w-[680px] h-[327px]">
                 <p className="font-srif font-normal font-semibold text-6xl leading-[136.7%] text-[#284D57]">
                     Performance- <br></br>based <span className="text-[#E64B2F]">businesses</span> succeed.
@@ -14,23 +15,25 @@ function Headers() {
                     Small is a dedicated performance  management platform that helps you execute nonstrategic goals and  retail  key talent.</p>
                 
             </div>
-            <div className="relative w-[616px] h-[612px]">
-                <img src={person} alt="person"  className="absolute w-[418px] left-[200px] top-0"/>
-                <img src={cross} alt="cross" />
-                <div className="flex flex-col items-center p-4 absolute w-48 h-36 
-                ">
+            <div className="relative w-[616px] h-[612px] bg-red-800">
+                <img src={person} alt="person"  className="absolute w-[418px] z-[1] left-[50px] top-0"/>
+                <img src={cross} alt="cross" className="relative left-[175px] top-[120px]"/>
+                <div className="flex flex-col items-center p-4 absolute w-48 h-36 z-10 bg-white">
                     <div className="relative">
                     <div className="absolute w-[102px] h-[13px] bg-rgba-red top-6"></div>
                     <p className="font-sans font-semibold text-4xl ">+10k</p>
                     </div>
                     <p className="font-montserat text-sm text-[#5B5653] text-center">Create conversation per moth</p>
                 </div>
-                <div className="absolute w-[336px] h-[120px] left-[280px] top-[24px] ">
-                    <img src={bell} alt="bell" />
+                <div className="absolute w-[336px] h-[120px] left-[280px] top-[24px] p-5 bg-white z-10 flex gap-4 top-[32px]">
+                    <img src={bell} alt="bell" className="relative w-[38px] h-[38px] " />
+                    <div>
                     <p>Q3 Engament Survey Results</p>
-                    <p>eNPS improved by 22% since last quarter</p>
+                        <p>eNPS improved by 22% since last quarter</p>
+                    </div>
                 </div>
-            </div>
+                </div>
+                </div>
         </div>
 
   )
