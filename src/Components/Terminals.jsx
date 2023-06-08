@@ -1,8 +1,7 @@
 import React from 'react'
 
 function Terminals() {
-  return (
-    <div>Terminals</div>
+  return (<div></div>
   )
 }
 
