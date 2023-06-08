@@ -1,5 +1,6 @@
 import Navbar from "./Navbar"
 import person from "../assets/person.png"
+import cross from "../assets/cross.png"
 function Headers() {
     return (
         <div className="w-[1440px] h-[830px] m-auto bg-slate-400">
@@ -13,7 +14,13 @@ function Headers() {
                 
             </div>
             <div>
-                img
+                <img src={person} alt="person" />
+                <img src={cross} alt="cross" />
+                <div>
+                    <p>+10k</p>
+                    <p>Create conversation per moth</p>
+                </div>
+                <div></div>
             </div>
         </div>
 
