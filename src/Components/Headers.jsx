@@ -15,14 +15,15 @@ function Headers() {
                 
             </div>
             <div className="relative w-[616px] h-[612px]">
-                <img src={person} alt="person"  className="absolute w-[418px] h-[547px] left-[200px] top-0"/>
+                <img src={person} alt="person"  className="absolute w-[418px] left-[200px] top-0"/>
                 <img src={cross} alt="cross" />
-                <div className="flex-col items-center py-[17px] px-[23px] absolute w-[187px] h-[138px] top-[460px] left-0 bg-white">
+                <div className="flex flex-col items-center p-4 absolute w-48 h-36 
+                ">
                     <div className="relative">
                     <div className="absolute w-[102px] h-[13px] bg-rgba-red top-6"></div>
                     <p className="font-sans font-semibold text-4xl ">+10k</p>
                     </div>
-                    <p>Create conversation per moth</p>
+                    <p className="font-montserat text-sm text-[#5B5653] text-center">Create conversation per moth</p>
                 </div>
                 <div className="absolute w-[336px] h-[120px] left-[280px] top-[24px] ">
                     <img src={bell} alt="bell" />
