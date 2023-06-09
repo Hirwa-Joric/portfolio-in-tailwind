@@ -19,12 +19,10 @@ function Navbar() {
         </div>
         <div className="flex gap-[5px]">
             <div
-                className=" flex items-center justify-center text-center w-[106px] h-[63px] border border-1 border-solid border-gray-300 rounded-[35px]"
-            >
+                className=" flex items-center justify-center text-center w-[136px] h-[63px] border border-1 border-solid border-gray-300 rounded-[35px]">
                 Sign in</div>
             <div
-                className=" flex items-center justify-center text-center w-[106px] h-[63px] border border-1 border-solid bg-[#E64B2F] rounded-[35px] text-white"
-            >
+                className=" flex items-center justify-center text-center w-[136px] h-[63px] border border-1 border-solid bg-[#E64B2F] rounded-[35px] text-white">
                 Let's talk</div>
         </div>
     </div>

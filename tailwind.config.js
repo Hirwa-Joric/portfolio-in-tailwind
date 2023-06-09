@@ -9,6 +9,9 @@ module.exports = {
         'rgba-red': 'rgba(230, 75, 47, 0.59)',
       },
     },
+    fontFamily: {
+      'noto-serif': ['"Noto Serif"', 'serif']
+    },
   },
   plugins: [],
 }
